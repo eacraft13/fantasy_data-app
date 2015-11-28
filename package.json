@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/eacraft13/fantasy_data-app/issues"
   },
-  "homepage": "https://github.com/eacraft13/fantasy_data-app#readme"
+  "homepage": "https://github.com/eacraft13/fantasy_data-app#readme",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.13.3"
+  }
 }
