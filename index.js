@@ -11,7 +11,7 @@ if (cluster.isMaster) {
         cluster.fork();
 
     // Replace a dead worker
-    cluster.on('exit', function(worker, code, signal) {
+    cluster.on('exit', function (worker, code, signal) {
         console.log('Worker', worker.process.pid, 'died with code', code, '-- restarting...');
         cluster.fork();
     });
