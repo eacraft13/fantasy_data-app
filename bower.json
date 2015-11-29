@@ -14,5 +14,9 @@
     "lib/_vendor",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "datatables.net": "~1.10.10",
+    "datatables.net-dt": "~1.10.9"
+  }
 }

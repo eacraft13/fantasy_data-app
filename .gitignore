@@ -1,5 +1,5 @@
-/node_modules
-/secrets
+node_modules
+_vendor
 
 *.log
 *.swp
