@@ -19,7 +19,9 @@
   "homepage": "https://github.com/eacraft13/fantasy_data-app#readme",
   "dependencies": {
     "cluster": "^0.7.7",
+    "connect-assets": "^5.0.1",
     "express": "^4.13.3",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "less": "^2.5.3"
   }
 }
