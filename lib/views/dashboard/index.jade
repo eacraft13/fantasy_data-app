@@ -1,8 +1,25 @@
 extends ../_layouts/main/index.jade
 
 block content
+    != css("_vendor/datatables.net-dt/css/jquery.dataTables.min.css")
     != css("dashboard/style")
+    
+    != js("_vendor/jquery/dist/jquery.min.js")
+    != js("_vendor/datatables.net/js/jquery.dataTables.min.js")
+    != js("dashboard/app")
+    
     #content
-        p Hello
-            span World
-        h3 Ahhhhh!
+        .sport
+            a nfl
+            a mlb
+            a nba
+            
+        hr
+
+        .table
+            table#datatable
+                thead
+                    tr
+                        th One
+                        th Two
+                        th Three
