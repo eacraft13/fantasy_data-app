@@ -1,5 +1,3 @@
-global.__base = __dirname + '/';
-
 var cluster = require('cluster');
 var os      = require('os');
 
