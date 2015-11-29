@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/eacraft13/fantasy_data-app",
+  "authors": [
+    "Eric Craft <eacraft13@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/_vendor",
+    "test",
+    "tests"
+  ]
+}
