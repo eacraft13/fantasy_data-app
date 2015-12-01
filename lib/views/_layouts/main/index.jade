@@ -1,10 +1,20 @@
 html(lang="en")
     include ../../_partials/head.jade
+    
+    != css("_vendor/bootstrap/dist/css/bootstrap.min.css")
+    != css("_vendor/datatables.net-dt/css/jquery.dataTables.min.css")
     != css("_layouts/main/style")
     
+    != js("_vendor/lodash/lodash.min.js")
+    != js("_vendor/jquery/dist/jquery.min.js")
+    != js("_vendor/bootstrap/dist/js/bootstrap.min.js")
+    != js("_vendor/datatables.net/js/jquery.dataTables.min.js")
+    
     body
-        include ../../_partials/header/index.jade
+        .site-wrapper
+            .site-wrapper-inner
+                .cover-container
+                    include ../../_partials/header/index.jade
+                    block content
+                    include ../../_partials/footer/index.jade
         
-        block content
-        
-        include ../../_partials/footer/index.jade

@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "datatables.net": "~1.10.10",
-    "datatables.net-dt": "~1.10.9"
+    "datatables.net-dt": "~1.10.9",
+    "bootstrap": "~3.3.6"
   }
 }
