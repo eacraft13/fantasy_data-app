@@ -21,6 +21,7 @@
     "tableExport.jquery.plugin": "~1.2.4",
     "dragtable": "~2.0.14",
     "jquery-ui": "~1.11.4",
-    "TableDnD": "https://github.com/isocra/TableDnD.git#~0.9.1"
+    "TableDnD": "https://github.com/isocra/TableDnD.git#~0.9.1",
+    "lodash": "~3.10.1"
   }
 }
