@@ -18,6 +18,9 @@
   "dependencies": {
     "bootstrap": "~3.3.6",
     "bootstrap-table": "~1.9.1",
-    "tableExport.jquery.plugin": "~1.2.4"
+    "tableExport.jquery.plugin": "~1.2.4",
+    "dragtable": "~2.0.14",
+    "jquery-ui": "~1.11.4",
+    "TableDnD": "https://github.com/isocra/TableDnD.git#~0.9.1"
   }
 }
