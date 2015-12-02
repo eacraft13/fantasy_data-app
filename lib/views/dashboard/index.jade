@@ -3,11 +3,9 @@ extends ../_layouts/main/index.jade
 block content
     != css("dashboard/style")
     
-    
-    
     .inner.cover
         .table
             table#datatable(class="display compact nowrap")
                 thead
                 
-    != js("dashboard/app")
+    != js('dashboard/app', { defer: true })
