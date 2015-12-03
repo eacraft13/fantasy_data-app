@@ -19,7 +19,7 @@ if (cluster.isMaster) {
 
 // Children
 else {
-    var config = require('/etc/configs/app');
+    var config = { app: require('/etc/configs/app'), proxy: require('/etc/configs/proxy') };
     var app    = require('./lib/index')(config);
-    app.listen(config.port);
+    app.listen(config.app.port);
 }
