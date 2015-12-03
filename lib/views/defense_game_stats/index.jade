@@ -1,0 +1,11 @@
+extends ../_layouts/main/index.jade
+
+block content
+    != css('defense_game_stats/style')
+    
+    h3 Fantasy Sports Data
+    p.lead Defense Game Stats
+    
+    table#table
+                
+    != js('defense_game_stats/app', { defer: true })
