@@ -3,3 +3,5 @@ _vendor
 
 *.log
 *.swp
+
+*.DS_Store
