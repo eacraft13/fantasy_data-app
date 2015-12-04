@@ -1,11 +1,114 @@
 extends ../_layouts/main/index.jade
 
 block content
-    != css('dashboard/style')
+    //- != css('dashboard/style')
     
-    h3 Fantasy Sports Data
-    p.lead Easily exportable to CSV and other formats
-            
-    table#table
-                
-    != js('dashboard/app', { defer: true })
+    // Jumbotron Header
+    header.jumbotron.hero-spacer
+      h2 Comprehensive Fantasy Statistics!
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.
+    hr
+    // Game stats
+    .row
+      .col-lg-12
+        h3 Statistics by game
+    .row.text-center
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Player Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/game-stats/player') Go
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Player Projected Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/game-stats/player-projected') Go
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Team Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/game-stats/team') Go
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Defense Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/game-stats/defense') Go
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Defense Projected Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/game-stats/defense-projected') Go
+    
+    // Season stats
+    .row
+      .col-lg-12
+        h3 Statistics by Season
+    .row.text-center
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Player Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/season-stats/player') Go
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Player Projected Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/season-stats/player-projected') Go
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Team Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/season-stats/team') Go
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Defense Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/season-stats/defense') Go
+      .col-md-2.col-sm-6.hero-feature
+        .thumbnail
+          img(src='http://placehold.it/800x500', alt='')
+          .caption
+            h4 Defense Projected Stats
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            p
+              a.btn.btn-primary(href='/dashboard/season-stats/defense-projected') Go
+              
+    // /.row
+    
+    hr
+    
+    // Footer
+    footer
+      .row
+        .col-lg-12
+          p Copyright © Your Website 2015
+
+    //- != js('dashboard/app', { defer: true })
