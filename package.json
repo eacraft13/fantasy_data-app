@@ -26,6 +26,8 @@
     "http-proxy-rules": "^1.0.0",
     "jade": "^1.11.0",
     "less": "^2.5.3",
-    "serve-favicon": "^2.3.0"
+    "pmx": "^0.5.5",
+    "serve-favicon": "^2.3.0",
+    "v8-profiler": "^5.3.2"
   }
 }
